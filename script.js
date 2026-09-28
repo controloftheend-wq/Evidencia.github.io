@@ -3,6 +3,75 @@
 ========================================================= */
 const CART_KEY = 'hugoshop_cart_v1';
 
+/* ---------- imágenes: ilustración local inmediata + foto real cuando carga ---------- */
+const ART_GLYPHS = {
+  tecnologia: '<rect x="18" y="26" width="64" height="40" rx="3"/><path d="M8 74h84l-6 6H14z"/>',
+  ropa: '<path d="M35 20l-22 12 8 14 9-4v38h40V42l9 4 8-14-22-12c-3 6-9 9-15 9s-12-3-15-9z"/>',
+  hogar: '<path d="M12 48L50 16l38 32"/><path d="M22 42v42h56V42"/><path d="M42 84V60h16v24"/>',
+  deportes: '<circle cx="50" cy="50" r="34"/><path d="M50 16v68M16 50h68M26 26c14 10 34 10 48 0M26 74c14-10 34-10 48 0"/>',
+  belleza: '<rect x="34" y="40" width="32" height="44" rx="6"/><rect x="42" y="26" width="16" height="14"/><path d="M38 16h24v10H38z"/>',
+  juguetes: '<rect x="16" y="52" width="30" height="30"/><rect x="54" y="52" width="30" height="30"/><rect x="35" y="22" width="30" height="30"/>',
+  libros: '<path d="M14 22h32c4 0 4 2 4 6v54c0-4-2-6-6-6H14z"/><path d="M86 22H54c-4 0-4 2-4 6v54c0-4 2-6 6-6h30z"/>',
+  mascotas: '<circle cx="30" cy="40" r="8"/><circle cx="46" cy="28" r="8"/><circle cx="64" cy="28" r="8"/><circle cx="80" cy="40" r="8"/><path d="M55 48c14 0 24 14 20 24s-14 8-20 6-14 4-20 0-6-14 4-24c4-4 10-6 16-6z"/>',
+  automotriz: '<path d="M12 60l8-22c2-4 5-6 9-6h42c4 0 7 2 9 6l8 22v16H12z"/><circle cx="32" cy="76" r="8"/><circle cx="68" cy="76" r="8"/><path d="M22 46h56"/>',
+  herramientas: '<path d="M70 18a16 16 0 0 0-14 22L20 76l6 6 36-36a16 16 0 0 0 22-14l-10 8-8-2-2-8z"/>'
+};
+const photoCache = new Map();
+
+function escXml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function lockOf(src){ const m = src.match(/(?:lock=|seed\/hugo)(\d+)/); return m ? Number(m[1]) : null; }
+
+function localArt(lock){
+  const id = Math.floor(lock / 10), k = lock % 10;
+  const p = findProduct(id);
+  const vi = k > 2 ? 1 : 0, detail = (k - 1) % 2 === 1;
+  const bg = vi === 0 ? '#141414' : '#39FF14';
+  const fg = vi === 0 ? '#39FF14' : '#0B0B0B';
+  const glyph = ART_GLYPHS[p ? p.category : 'tecnologia'] || '';
+  const label = p ? p.name : 'HugoShop';
+  const variant = p ? p.variants[vi].label : '';
+  const size = Math.max(22, Math.min(38, Math.floor(640 / (label.length * 0.58))));
+  const font = 'Century Gothic,Gothic A1,Arial,sans-serif';
+  const svg =
+    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700"><rect width="700" height="700" fill="${bg}"/>` +
+    `<g fill="none" stroke="${fg}" stroke-width="${detail ? 2.2 : 3}" stroke-linejoin="round" stroke-linecap="round" opacity="${detail ? 0.5 : 1}" transform="${detail ? 'translate(50 0) scale(6)' : 'translate(175 90) scale(3.5)'}">${glyph}</g>` +
+    `<text x="350" y="580" text-anchor="middle" font-family="${font}" font-weight="700" font-size="${size}" fill="${fg}">${escXml(label)}</text>` +
+    `<text x="350" y="630" text-anchor="middle" font-family="${font}" font-size="26" fill="${fg}" opacity="0.75">${escXml(variant)}</text></svg>`;
+  return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+}
+
+function loadPhoto(url, lock, done){
+  const attempt = (u, next) => { const t = new Image(); t.onload = () => done(u); t.onerror = next; t.src = u; };
+  attempt(url, () => attempt(`https://picsum.photos/seed/hugo${lock}/700/700`, () => done(null)));
+}
+
+function enhanceImg(img){
+  const src = img.getAttribute('src') || '';
+  if(!src.includes('loremflickr.com')) return;
+  if(img.dataset.ok === src) return;
+  const lock = lockOf(src);
+  if(lock === null) return;
+  if(photoCache.has(lock)){ const u = photoCache.get(lock); img.dataset.ok = u; img.src = u; return; }
+  img.dataset.want = src;
+  img.src = localArt(lock);
+  loadPhoto(src, lock, u => {
+    if(!u) return;
+    photoCache.set(lock, u);
+    if(img.dataset.want === src){ img.dataset.ok = u; img.src = u; }
+  });
+}
+
+new MutationObserver(muts => {
+  muts.forEach(m => {
+    if(m.type === 'attributes'){ enhanceImg(m.target); return; }
+    m.addedNodes.forEach(n => {
+      if(n.nodeType !== 1) return;
+      if(n.tagName === 'IMG') enhanceImg(n);
+      else if(n.querySelectorAll) n.querySelectorAll('img').forEach(enhanceImg);
+    });
+  });
+}).observe(document.documentElement, { childList:true, subtree:true, attributes:true, attributeFilter:['src'] });
+
 const HERO_SLIDES = [
   { theme:'a', tag:'Envíos gratis desde hoy', title:'Todo lo que buscas, a la velocidad del rayo', desc:'Miles de productos en tecnología, moda, hogar y más, con modelos nuevos cada semana.', cta:'Ver tecnología', href:'#/categoria/tecnologia' },
   { theme:'b', tag:'Nueva colección', title:'Renueva tu clóset sin salir de casa', desc:'Ropa y calzado con variantes de talla y color para encontrar tu ajuste perfecto.', cta:'Explorar ropa', href:'#/categoria/ropa' },
@@ -77,12 +146,12 @@ function pickNew(){
 function buildCategoryNav(){
   document.getElementById('category-bar').innerHTML =
     `<a href="#/" class="category-pill" data-key="">Inicio</a>` +
-    CATEGORIES.map(c => `<a href="#/categoria/${c.key}" class="category-pill" data-key="${c.key}">${c.icon} ${c.name}</a>`).join('');
+    CATEGORIES.map(c => `<a href="#/categoria/${c.key}" class="category-pill" data-key="${c.key}">${c.name}</a>`).join('');
 
   document.getElementById('category-grid').innerHTML = CATEGORIES.map(c => `
     <a href="#/categoria/${c.key}" class="category-tile">
-      <span class="ic">${c.icon}</span>
       <span class="nm">${c.name}</span>
+      <span class="cnt">${PRODUCTS.filter(p => p.category === c.key).length} productos</span>
     </a>`).join('');
 
   document.getElementById('footer-categories').innerHTML =
@@ -90,8 +159,8 @@ function buildCategoryNav(){
 
   document.getElementById('mobile-menu').innerHTML =
     `<a href="#/">Inicio</a>` +
-    CATEGORIES.map(c => `<a href="#/categoria/${c.key}">${c.icon} ${c.name}</a>`).join('') +
-    `<a href="#/carrito">🛒 Carrito</a>`;
+    CATEGORIES.map(c => `<a href="#/categoria/${c.key}">${c.name}</a>`).join('') +
+    `<a href="#/carrito">Carrito</a>`;
 }
 
 function updateActivePill(key){
@@ -143,7 +212,6 @@ function renderCategoryView(key){
   const cat = findCategory(key);
   const list = PRODUCTS.filter(p => p.category === key);
   document.getElementById('category-crumb').textContent = cat ? cat.name : 'Categoría';
-  document.getElementById('category-icon').textContent = cat ? cat.icon : '❓';
   document.getElementById('category-title').textContent = cat ? cat.name : 'Categoría no encontrada';
   document.getElementById('category-count').textContent = `${list.length} producto${list.length===1?'':'s'}`;
   renderGrid('category-products', list);
@@ -328,7 +396,7 @@ function attachStaticEvents(){
   });
   document.getElementById('pd-add-cart').addEventListener('click', () => {
     addToCart(pdState.productId, pdState.variantIndex, pdState.qty);
-    showToast('Agregado al carrito ✓');
+    showToast('Agregado al carrito');
   });
   document.getElementById('pd-buy-now').addEventListener('click', () => {
     addToCart(pdState.productId, pdState.variantIndex, pdState.qty);

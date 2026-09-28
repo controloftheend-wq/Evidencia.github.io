@@ -2,53 +2,43 @@
 const CATEGORIES = [
   {
     "key": "tecnologia",
-    "name": "Tecnología",
-    "icon": "💻"
+    "name": "Tecnología"
   },
   {
     "key": "ropa",
-    "name": "Ropa",
-    "icon": "👕"
+    "name": "Ropa"
   },
   {
     "key": "hogar",
-    "name": "Hogar",
-    "icon": "🏠"
+    "name": "Hogar"
   },
   {
     "key": "deportes",
-    "name": "Deportes",
-    "icon": "⚽"
+    "name": "Deportes"
   },
   {
     "key": "belleza",
-    "name": "Belleza",
-    "icon": "💄"
+    "name": "Belleza"
   },
   {
     "key": "juguetes",
-    "name": "Juguetes",
-    "icon": "🧸"
+    "name": "Juguetes"
   },
   {
     "key": "libros",
-    "name": "Libros",
-    "icon": "📚"
+    "name": "Libros"
   },
   {
     "key": "mascotas",
-    "name": "Mascotas",
-    "icon": "🐾"
+    "name": "Mascotas"
   },
   {
     "key": "automotriz",
-    "name": "Automotriz",
-    "icon": "🚗"
+    "name": "Automotriz"
   },
   {
     "key": "herramientas",
-    "name": "Herramientas",
-    "icon": "🔧"
+    "name": "Herramientas"
   }
 ];
 
@@ -66,15 +56,15 @@ const PRODUCTS = [
       {
         "label": "Negro Grafito",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Laptop%20Pro%20X15",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Laptop%20Pro%20X15%20-%20Detalle"
+          "https://loremflickr.com/700/700/laptop?lock=11",
+          "https://loremflickr.com/700/700/laptop?lock=12"
         ]
       },
       {
         "label": "Plata Estelar",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Laptop%20Pro%20X15%20%28Plata%20Estelar%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Laptop%20Pro%20X15%20-%20Detalle%20%28Plata%20Estelar%29"
+          "https://loremflickr.com/700/700/laptop?lock=13",
+          "https://loremflickr.com/700/700/laptop?lock=14"
         ]
       }
     ]
@@ -92,15 +82,15 @@ const PRODUCTS = [
       {
         "label": "Negro Medianoche",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Smartphone%20Nova%2012",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Smartphone%20Nova%2012%20-%20Detalle"
+          "https://loremflickr.com/700/700/smartphone?lock=21",
+          "https://loremflickr.com/700/700/smartphone?lock=22"
         ]
       },
       {
         "label": "Azul Aurora",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Smartphone%20Nova%2012%20%28Azul%20Aurora%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Smartphone%20Nova%2012%20-%20Detalle%20%28Azul%20Aurora%29"
+          "https://loremflickr.com/700/700/smartphone?lock=23",
+          "https://loremflickr.com/700/700/smartphone?lock=24"
         ]
       }
     ]
@@ -118,15 +108,15 @@ const PRODUCTS = [
       {
         "label": "Negro Ónix",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Auriculares%20BassMax",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Auriculares%20BassMax%20-%20Detalle"
+          "https://loremflickr.com/700/700/headphones?lock=31",
+          "https://loremflickr.com/700/700/headphones?lock=32"
         ]
       },
       {
         "label": "Blanco Perla",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Auriculares%20BassMax%20%28Blanco%20Perla%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Auriculares%20BassMax%20-%20Detalle%20%28Blanco%20Perla%29"
+          "https://loremflickr.com/700/700/headphones?lock=33",
+          "https://loremflickr.com/700/700/headphones?lock=34"
         ]
       }
     ]
@@ -144,15 +134,15 @@ const PRODUCTS = [
       {
         "label": "Correa Negra",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Smartwatch%20PulseFit",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Smartwatch%20PulseFit%20-%20Detalle"
+          "https://loremflickr.com/700/700/smartwatch?lock=41",
+          "https://loremflickr.com/700/700/smartwatch?lock=42"
         ]
       },
       {
         "label": "Correa Verde Lima",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Smartwatch%20PulseFit%20%28Correa%20Verde%20Lima%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Smartwatch%20PulseFit%20-%20Detalle%20%28Correa%20Verde%20Lima%29"
+          "https://loremflickr.com/700/700/smartwatch?lock=43",
+          "https://loremflickr.com/700/700/smartwatch?lock=44"
         ]
       }
     ]
@@ -170,15 +160,15 @@ const PRODUCTS = [
       {
         "label": "Gris Espacial",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Tablet%20AirView%2010",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Tablet%20AirView%2010%20-%20Detalle"
+          "https://loremflickr.com/700/700/tablet?lock=51",
+          "https://loremflickr.com/700/700/tablet?lock=52"
         ]
       },
       {
         "label": "Plata",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Tablet%20AirView%2010%20%28Plata%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Tablet%20AirView%2010%20-%20Detalle%20%28Plata%29"
+          "https://loremflickr.com/700/700/tablet?lock=53",
+          "https://loremflickr.com/700/700/tablet?lock=54"
         ]
       }
     ]
@@ -196,15 +186,15 @@ const PRODUCTS = [
       {
         "label": "Talla M",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Sudadera%20Urban%20Flow",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Sudadera%20Urban%20Flow%20-%20Detalle"
+          "https://loremflickr.com/700/700/hoodie?lock=61",
+          "https://loremflickr.com/700/700/hoodie?lock=62"
         ]
       },
       {
         "label": "Talla L",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Sudadera%20Urban%20Flow%20%28Talla%20L%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Sudadera%20Urban%20Flow%20-%20Detalle%20%28Talla%20L%29"
+          "https://loremflickr.com/700/700/hoodie?lock=63",
+          "https://loremflickr.com/700/700/hoodie?lock=64"
         ]
       }
     ]
@@ -222,15 +212,15 @@ const PRODUCTS = [
       {
         "label": "Negro",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Playera%20BasicWear",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Playera%20BasicWear%20-%20Detalle"
+          "https://loremflickr.com/700/700/tshirt?lock=71",
+          "https://loremflickr.com/700/700/tshirt?lock=72"
         ]
       },
       {
         "label": "Blanco",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Playera%20BasicWear%20%28Blanco%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Playera%20BasicWear%20-%20Detalle%20%28Blanco%29"
+          "https://loremflickr.com/700/700/tshirt?lock=73",
+          "https://loremflickr.com/700/700/tshirt?lock=74"
         ]
       }
     ]
@@ -248,15 +238,15 @@ const PRODUCTS = [
       {
         "label": "Talla M",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Chaqueta%20StormGuard",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Chaqueta%20StormGuard%20-%20Detalle"
+          "https://loremflickr.com/700/700/jacket?lock=81",
+          "https://loremflickr.com/700/700/jacket?lock=82"
         ]
       },
       {
         "label": "Talla L",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Chaqueta%20StormGuard%20%28Talla%20L%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Chaqueta%20StormGuard%20-%20Detalle%20%28Talla%20L%29"
+          "https://loremflickr.com/700/700/jacket?lock=83",
+          "https://loremflickr.com/700/700/jacket?lock=84"
         ]
       }
     ]
@@ -274,15 +264,15 @@ const PRODUCTS = [
       {
         "label": "Gris",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Pantal%C3%B3n%20FlexFit%20Jogger",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Pantal%C3%B3n%20FlexFit%20Jogger%20-%20Detalle"
+          "https://loremflickr.com/700/700/sweatpants?lock=91",
+          "https://loremflickr.com/700/700/sweatpants?lock=92"
         ]
       },
       {
         "label": "Negro",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Pantal%C3%B3n%20FlexFit%20Jogger%20%28Negro%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Pantal%C3%B3n%20FlexFit%20Jogger%20-%20Detalle%20%28Negro%29"
+          "https://loremflickr.com/700/700/sweatpants?lock=93",
+          "https://loremflickr.com/700/700/sweatpants?lock=94"
         ]
       }
     ]
@@ -300,15 +290,15 @@ const PRODUCTS = [
       {
         "label": "Talla S",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Vestido%20Noche%20Elegance",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Vestido%20Noche%20Elegance%20-%20Detalle"
+          "https://loremflickr.com/700/700/dress?lock=101",
+          "https://loremflickr.com/700/700/dress?lock=102"
         ]
       },
       {
         "label": "Talla M",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Vestido%20Noche%20Elegance%20%28Talla%20M%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Vestido%20Noche%20Elegance%20-%20Detalle%20%28Talla%20M%29"
+          "https://loremflickr.com/700/700/dress?lock=103",
+          "https://loremflickr.com/700/700/dress?lock=104"
         ]
       }
     ]
@@ -326,15 +316,15 @@ const PRODUCTS = [
       {
         "label": "Negro",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Licuadora%20PowerBlend%20900",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Licuadora%20PowerBlend%20900%20-%20Detalle"
+          "https://loremflickr.com/700/700/blender?lock=111",
+          "https://loremflickr.com/700/700/blender?lock=112"
         ]
       },
       {
         "label": "Rojo",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Licuadora%20PowerBlend%20900%20%28Rojo%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Licuadora%20PowerBlend%20900%20-%20Detalle%20%28Rojo%29"
+          "https://loremflickr.com/700/700/blender?lock=113",
+          "https://loremflickr.com/700/700/blender?lock=114"
         ]
       }
     ]
@@ -352,15 +342,15 @@ const PRODUCTS = [
       {
         "label": "Acero",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Cafetera%20AromaPress",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Cafetera%20AromaPress%20-%20Detalle"
+          "https://loremflickr.com/700/700/coffee?lock=121",
+          "https://loremflickr.com/700/700/coffee?lock=122"
         ]
       },
       {
         "label": "Negro Mate",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Cafetera%20AromaPress%20%28Negro%20Mate%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Cafetera%20AromaPress%20-%20Detalle%20%28Negro%20Mate%29"
+          "https://loremflickr.com/700/700/coffee?lock=123",
+          "https://loremflickr.com/700/700/coffee?lock=124"
         ]
       }
     ]
@@ -378,15 +368,15 @@ const PRODUCTS = [
       {
         "label": "Individual",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Set%20de%20S%C3%A1banas%20CloudSoft",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Set%20de%20S%C3%A1banas%20CloudSoft%20-%20Detalle"
+          "https://loremflickr.com/700/700/bedding?lock=131",
+          "https://loremflickr.com/700/700/bedding?lock=132"
         ]
       },
       {
         "label": "Queen",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Set%20de%20S%C3%A1banas%20CloudSoft%20%28Queen%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Set%20de%20S%C3%A1banas%20CloudSoft%20-%20Detalle%20%28Queen%29"
+          "https://loremflickr.com/700/700/bedding?lock=133",
+          "https://loremflickr.com/700/700/bedding?lock=134"
         ]
       }
     ]
@@ -404,15 +394,15 @@ const PRODUCTS = [
       {
         "label": "Blanca",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=L%C3%A1mpara%20LumaGlow",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=L%C3%A1mpara%20LumaGlow%20-%20Detalle"
+          "https://loremflickr.com/700/700/lamp?lock=141",
+          "https://loremflickr.com/700/700/lamp?lock=142"
         ]
       },
       {
         "label": "Negra",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=L%C3%A1mpara%20LumaGlow%20%28Negra%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=L%C3%A1mpara%20LumaGlow%20-%20Detalle%20%28Negra%29"
+          "https://loremflickr.com/700/700/lamp?lock=143",
+          "https://loremflickr.com/700/700/lamp?lock=144"
         ]
       }
     ]
@@ -430,15 +420,15 @@ const PRODUCTS = [
       {
         "label": "Gris",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Aspiradora%20CycloneMax",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Aspiradora%20CycloneMax%20-%20Detalle"
+          "https://loremflickr.com/700/700/vacuum?lock=151",
+          "https://loremflickr.com/700/700/vacuum?lock=152"
         ]
       },
       {
         "label": "Azul",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Aspiradora%20CycloneMax%20%28Azul%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Aspiradora%20CycloneMax%20-%20Detalle%20%28Azul%29"
+          "https://loremflickr.com/700/700/vacuum?lock=153",
+          "https://loremflickr.com/700/700/vacuum?lock=154"
         ]
       }
     ]
@@ -456,15 +446,15 @@ const PRODUCTS = [
       {
         "label": "Talla 5 Blanco",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Bal%C3%B3n%20ProStrike",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Bal%C3%B3n%20ProStrike%20-%20Detalle"
+          "https://loremflickr.com/700/700/soccer?lock=161",
+          "https://loremflickr.com/700/700/soccer?lock=162"
         ]
       },
       {
         "label": "Talla 5 Verde Neón",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Bal%C3%B3n%20ProStrike%20%28Talla%205%20Verde%20Ne%C3%B3n%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Bal%C3%B3n%20ProStrike%20-%20Detalle%20%28Talla%205%20Verde%20Ne%C3%B3n%29"
+          "https://loremflickr.com/700/700/soccer?lock=163",
+          "https://loremflickr.com/700/700/soccer?lock=164"
         ]
       }
     ]
@@ -482,15 +472,15 @@ const PRODUCTS = [
       {
         "label": "Negro/Verde",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Bicicleta%20TrailRider%20X",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Bicicleta%20TrailRider%20X%20-%20Detalle"
+          "https://loremflickr.com/700/700/bicycle?lock=171",
+          "https://loremflickr.com/700/700/bicycle?lock=172"
         ]
       },
       {
         "label": "Gris/Naranja",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Bicicleta%20TrailRider%20X%20%28Gris/Naranja%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Bicicleta%20TrailRider%20X%20-%20Detalle%20%28Gris/Naranja%29"
+          "https://loremflickr.com/700/700/bicycle?lock=173",
+          "https://loremflickr.com/700/700/bicycle?lock=174"
         ]
       }
     ]
@@ -508,15 +498,15 @@ const PRODUCTS = [
       {
         "label": "Par 3kg",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Mancuernas%20IronCore%20%28set%29",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Mancuernas%20IronCore%20%28set%29%20-%20Detalle"
+          "https://loremflickr.com/700/700/dumbbell?lock=181",
+          "https://loremflickr.com/700/700/dumbbell?lock=182"
         ]
       },
       {
         "label": "Par 5kg",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Mancuernas%20IronCore%20%28set%29%20%28Par%205kg%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Mancuernas%20IronCore%20%28set%29%20-%20Detalle%20%28Par%205kg%29"
+          "https://loremflickr.com/700/700/dumbbell?lock=183",
+          "https://loremflickr.com/700/700/dumbbell?lock=184"
         ]
       }
     ]
@@ -534,15 +524,15 @@ const PRODUCTS = [
       {
         "label": "Talla 26",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Tenis%20RunFast%20Elite",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Tenis%20RunFast%20Elite%20-%20Detalle"
+          "https://loremflickr.com/700/700/sneakers?lock=191",
+          "https://loremflickr.com/700/700/sneakers?lock=192"
         ]
       },
       {
         "label": "Talla 27",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Tenis%20RunFast%20Elite%20%28Talla%2027%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Tenis%20RunFast%20Elite%20-%20Detalle%20%28Talla%2027%29"
+          "https://loremflickr.com/700/700/sneakers?lock=193",
+          "https://loremflickr.com/700/700/sneakers?lock=194"
         ]
       }
     ]
@@ -560,15 +550,15 @@ const PRODUCTS = [
       {
         "label": "Peso Ligero",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Raqueta%20SmashPro",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Raqueta%20SmashPro%20-%20Detalle"
+          "https://loremflickr.com/700/700/tennis?lock=201",
+          "https://loremflickr.com/700/700/tennis?lock=202"
         ]
       },
       {
         "label": "Peso Medio",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Raqueta%20SmashPro%20%28Peso%20Medio%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Raqueta%20SmashPro%20-%20Detalle%20%28Peso%20Medio%29"
+          "https://loremflickr.com/700/700/tennis?lock=203",
+          "https://loremflickr.com/700/700/tennis?lock=204"
         ]
       }
     ]
@@ -586,15 +576,15 @@ const PRODUCTS = [
       {
         "label": "50ml",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Perfume%20Essence%20Noir",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Perfume%20Essence%20Noir%20-%20Detalle"
+          "https://loremflickr.com/700/700/perfume?lock=211",
+          "https://loremflickr.com/700/700/perfume?lock=212"
         ]
       },
       {
         "label": "100ml",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Perfume%20Essence%20Noir%20%28100ml%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Perfume%20Essence%20Noir%20-%20Detalle%20%28100ml%29"
+          "https://loremflickr.com/700/700/perfume?lock=213",
+          "https://loremflickr.com/700/700/perfume?lock=214"
         ]
       }
     ]
@@ -612,15 +602,15 @@ const PRODUCTS = [
       {
         "label": "Tonos Cálidos",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Set%20de%20Maquillaje%20GlowKit",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Set%20de%20Maquillaje%20GlowKit%20-%20Detalle"
+          "https://loremflickr.com/700/700/makeup?lock=221",
+          "https://loremflickr.com/700/700/makeup?lock=222"
         ]
       },
       {
         "label": "Tonos Fríos",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Set%20de%20Maquillaje%20GlowKit%20%28Tonos%20Fr%C3%ADos%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Set%20de%20Maquillaje%20GlowKit%20-%20Detalle%20%28Tonos%20Fr%C3%ADos%29"
+          "https://loremflickr.com/700/700/makeup?lock=223",
+          "https://loremflickr.com/700/700/makeup?lock=224"
         ]
       }
     ]
@@ -638,15 +628,15 @@ const PRODUCTS = [
       {
         "label": "Negro",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Secadora%20de%20Cabello%20AirStyle",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Secadora%20de%20Cabello%20AirStyle%20-%20Detalle"
+          "https://loremflickr.com/700/700/hairdryer?lock=231",
+          "https://loremflickr.com/700/700/hairdryer?lock=232"
         ]
       },
       {
         "label": "Rosa",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Secadora%20de%20Cabello%20AirStyle%20%28Rosa%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Secadora%20de%20Cabello%20AirStyle%20-%20Detalle%20%28Rosa%29"
+          "https://loremflickr.com/700/700/hairdryer?lock=233",
+          "https://loremflickr.com/700/700/hairdryer?lock=234"
         ]
       }
     ]
@@ -664,15 +654,15 @@ const PRODUCTS = [
       {
         "label": "Piel Normal",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Crema%20Facial%20HydraGlow",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Crema%20Facial%20HydraGlow%20-%20Detalle"
+          "https://loremflickr.com/700/700/skincare?lock=241",
+          "https://loremflickr.com/700/700/skincare?lock=242"
         ]
       },
       {
         "label": "Piel Seca",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Crema%20Facial%20HydraGlow%20%28Piel%20Seca%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Crema%20Facial%20HydraGlow%20-%20Detalle%20%28Piel%20Seca%29"
+          "https://loremflickr.com/700/700/skincare?lock=243",
+          "https://loremflickr.com/700/700/skincare?lock=244"
         ]
       }
     ]
@@ -690,15 +680,15 @@ const PRODUCTS = [
       {
         "label": "Negro",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Plancha%20SilkStraight",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Plancha%20SilkStraight%20-%20Detalle"
+          "https://loremflickr.com/700/700/hair?lock=251",
+          "https://loremflickr.com/700/700/hair?lock=252"
         ]
       },
       {
         "label": "Dorado",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Plancha%20SilkStraight%20%28Dorado%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Plancha%20SilkStraight%20-%20Detalle%20%28Dorado%29"
+          "https://loremflickr.com/700/700/hair?lock=253",
+          "https://loremflickr.com/700/700/hair?lock=254"
         ]
       }
     ]
@@ -716,15 +706,15 @@ const PRODUCTS = [
       {
         "label": "Negro",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Dron%20SkyExplorer%20Mini",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Dron%20SkyExplorer%20Mini%20-%20Detalle"
+          "https://loremflickr.com/700/700/drone?lock=261",
+          "https://loremflickr.com/700/700/drone?lock=262"
         ]
       },
       {
         "label": "Blanco",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Dron%20SkyExplorer%20Mini%20%28Blanco%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Dron%20SkyExplorer%20Mini%20-%20Detalle%20%28Blanco%29"
+          "https://loremflickr.com/700/700/drone?lock=263",
+          "https://loremflickr.com/700/700/drone?lock=264"
         ]
       }
     ]
@@ -742,15 +732,15 @@ const PRODUCTS = [
       {
         "label": "Ciudad",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Set%20de%20Bloques%20MegaBuild",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Set%20de%20Bloques%20MegaBuild%20-%20Detalle"
+          "https://loremflickr.com/700/700/lego?lock=271",
+          "https://loremflickr.com/700/700/lego?lock=272"
         ]
       },
       {
         "label": "Espacial",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Set%20de%20Bloques%20MegaBuild%20%28Espacial%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Set%20de%20Bloques%20MegaBuild%20-%20Detalle%20%28Espacial%29"
+          "https://loremflickr.com/700/700/lego?lock=273",
+          "https://loremflickr.com/700/700/lego?lock=274"
         ]
       }
     ]
@@ -768,15 +758,15 @@ const PRODUCTS = [
       {
         "label": "Look Casual",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Mu%C3%B1eca%20DreamStyle",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Mu%C3%B1eca%20DreamStyle%20-%20Detalle"
+          "https://loremflickr.com/700/700/doll?lock=281",
+          "https://loremflickr.com/700/700/doll?lock=282"
         ]
       },
       {
         "label": "Look Fiesta",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Mu%C3%B1eca%20DreamStyle%20%28Look%20Fiesta%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Mu%C3%B1eca%20DreamStyle%20-%20Detalle%20%28Look%20Fiesta%29"
+          "https://loremflickr.com/700/700/doll?lock=283",
+          "https://loremflickr.com/700/700/doll?lock=284"
         ]
       }
     ]
@@ -794,15 +784,15 @@ const PRODUCTS = [
       {
         "label": "Rojo",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Carro%20a%20Control%20ThunderRacer",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Carro%20a%20Control%20ThunderRacer%20-%20Detalle"
+          "https://loremflickr.com/700/700/car?lock=291",
+          "https://loremflickr.com/700/700/car?lock=292"
         ]
       },
       {
         "label": "Azul",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Carro%20a%20Control%20ThunderRacer%20%28Azul%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Carro%20a%20Control%20ThunderRacer%20-%20Detalle%20%28Azul%29"
+          "https://loremflickr.com/700/700/car?lock=293",
+          "https://loremflickr.com/700/700/car?lock=294"
         ]
       }
     ]
@@ -820,15 +810,15 @@ const PRODUCTS = [
       {
         "label": "Diseño Nebulosa",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Rompecabezas%20GalaxyPuzzle%201000",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Rompecabezas%20GalaxyPuzzle%201000%20-%20Detalle"
+          "https://loremflickr.com/700/700/puzzle?lock=301",
+          "https://loremflickr.com/700/700/puzzle?lock=302"
         ]
       },
       {
         "label": "Diseño Vía Láctea",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Rompecabezas%20GalaxyPuzzle%201000%20%28Dise%C3%B1o%20V%C3%ADa%20L%C3%A1ctea%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Rompecabezas%20GalaxyPuzzle%201000%20-%20Detalle%20%28Dise%C3%B1o%20V%C3%ADa%20L%C3%A1ctea%29"
+          "https://loremflickr.com/700/700/puzzle?lock=303",
+          "https://loremflickr.com/700/700/puzzle?lock=304"
         ]
       }
     ]
@@ -846,15 +836,15 @@ const PRODUCTS = [
       {
         "label": "Pasta Blanda",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Novela%20El%20Eco%20del%20Silencio",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Novela%20El%20Eco%20del%20Silencio%20-%20Detalle"
+          "https://loremflickr.com/700/700/book?lock=311",
+          "https://loremflickr.com/700/700/book?lock=312"
         ]
       },
       {
         "label": "Pasta Dura",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Novela%20El%20Eco%20del%20Silencio%20%28Pasta%20Dura%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Novela%20El%20Eco%20del%20Silencio%20-%20Detalle%20%28Pasta%20Dura%29"
+          "https://loremflickr.com/700/700/book?lock=313",
+          "https://loremflickr.com/700/700/book?lock=314"
         ]
       }
     ]
@@ -872,15 +862,15 @@ const PRODUCTS = [
       {
         "label": "Pasta Blanda",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Libro%20de%20Cocina%20Sabores%20del%20Mundo",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Libro%20de%20Cocina%20Sabores%20del%20Mundo%20-%20Detalle"
+          "https://loremflickr.com/700/700/cookbook?lock=321",
+          "https://loremflickr.com/700/700/cookbook?lock=322"
         ]
       },
       {
         "label": "Edición Ilustrada",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Libro%20de%20Cocina%20Sabores%20del%20Mundo%20%28Edici%C3%B3n%20Ilustrada%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Libro%20de%20Cocina%20Sabores%20del%20Mundo%20-%20Detalle%20%28Edici%C3%B3n%20Ilustrada%29"
+          "https://loremflickr.com/700/700/cookbook?lock=323",
+          "https://loremflickr.com/700/700/cookbook?lock=324"
         ]
       }
     ]
@@ -898,15 +888,15 @@ const PRODUCTS = [
       {
         "label": "Pasta Blanda",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Manual%20Programaci%C3%B3n%20desde%20Cero",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Manual%20Programaci%C3%B3n%20desde%20Cero%20-%20Detalle"
+          "https://loremflickr.com/700/700/book?lock=331",
+          "https://loremflickr.com/700/700/book?lock=332"
         ]
       },
       {
         "label": "Pasta Dura",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Manual%20Programaci%C3%B3n%20desde%20Cero%20%28Pasta%20Dura%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Manual%20Programaci%C3%B3n%20desde%20Cero%20-%20Detalle%20%28Pasta%20Dura%29"
+          "https://loremflickr.com/700/700/book?lock=333",
+          "https://loremflickr.com/700/700/book?lock=334"
         ]
       }
     ]
@@ -924,15 +914,15 @@ const PRODUCTS = [
       {
         "label": "Edición Estándar",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=C%C3%B3mic%20Guardianes%20del%20Vac%C3%ADo%20Vol.1",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=C%C3%B3mic%20Guardianes%20del%20Vac%C3%ADo%20Vol.1%20-%20Detalle"
+          "https://loremflickr.com/700/700/comic?lock=341",
+          "https://loremflickr.com/700/700/comic?lock=342"
         ]
       },
       {
         "label": "Edición Coleccionista",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=C%C3%B3mic%20Guardianes%20del%20Vac%C3%ADo%20Vol.1%20%28Edici%C3%B3n%20Coleccionista%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=C%C3%B3mic%20Guardianes%20del%20Vac%C3%ADo%20Vol.1%20-%20Detalle%20%28Edici%C3%B3n%20Coleccionista%29"
+          "https://loremflickr.com/700/700/comic?lock=343",
+          "https://loremflickr.com/700/700/comic?lock=344"
         ]
       }
     ]
@@ -950,15 +940,15 @@ const PRODUCTS = [
       {
         "label": "Verde",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Diario%20Reflexiones%20Diarias",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Diario%20Reflexiones%20Diarias%20-%20Detalle"
+          "https://loremflickr.com/700/700/notebook?lock=351",
+          "https://loremflickr.com/700/700/notebook?lock=352"
         ]
       },
       {
         "label": "Negro",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Diario%20Reflexiones%20Diarias%20%28Negro%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Diario%20Reflexiones%20Diarias%20-%20Detalle%20%28Negro%29"
+          "https://loremflickr.com/700/700/notebook?lock=353",
+          "https://loremflickr.com/700/700/notebook?lock=354"
         ]
       }
     ]
@@ -976,15 +966,15 @@ const PRODUCTS = [
       {
         "label": "Chica",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Cama%20Ortop%C3%A9dica%20PetCloud",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Cama%20Ortop%C3%A9dica%20PetCloud%20-%20Detalle"
+          "https://loremflickr.com/700/700/dog?lock=361",
+          "https://loremflickr.com/700/700/dog?lock=362"
         ]
       },
       {
         "label": "Grande",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Cama%20Ortop%C3%A9dica%20PetCloud%20%28Grande%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Cama%20Ortop%C3%A9dica%20PetCloud%20-%20Detalle%20%28Grande%29"
+          "https://loremflickr.com/700/700/dog?lock=363",
+          "https://loremflickr.com/700/700/dog?lock=364"
         ]
       }
     ]
@@ -1002,15 +992,15 @@ const PRODUCTS = [
       {
         "label": "Gris",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Rascador%20FelineTower",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Rascador%20FelineTower%20-%20Detalle"
+          "https://loremflickr.com/700/700/cat?lock=371",
+          "https://loremflickr.com/700/700/cat?lock=372"
         ]
       },
       {
         "label": "Beige",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Rascador%20FelineTower%20%28Beige%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Rascador%20FelineTower%20-%20Detalle%20%28Beige%29"
+          "https://loremflickr.com/700/700/cat?lock=373",
+          "https://loremflickr.com/700/700/cat?lock=374"
         ]
       }
     ]
@@ -1028,15 +1018,15 @@ const PRODUCTS = [
       {
         "label": "Blanco",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Comedero%20Autom%C3%A1tico%20SmartFeed",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Comedero%20Autom%C3%A1tico%20SmartFeed%20-%20Detalle"
+          "https://loremflickr.com/700/700/petfood?lock=381",
+          "https://loremflickr.com/700/700/petfood?lock=382"
         ]
       },
       {
         "label": "Negro",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Comedero%20Autom%C3%A1tico%20SmartFeed%20%28Negro%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Comedero%20Autom%C3%A1tico%20SmartFeed%20-%20Detalle%20%28Negro%29"
+          "https://loremflickr.com/700/700/petfood?lock=383",
+          "https://loremflickr.com/700/700/petfood?lock=384"
         ]
       }
     ]
@@ -1054,15 +1044,15 @@ const PRODUCTS = [
       {
         "label": "Talla M",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Correa%20RetractPro",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Correa%20RetractPro%20-%20Detalle"
+          "https://loremflickr.com/700/700/leash?lock=391",
+          "https://loremflickr.com/700/700/leash?lock=392"
         ]
       },
       {
         "label": "Talla L",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Correa%20RetractPro%20%28Talla%20L%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Correa%20RetractPro%20-%20Detalle%20%28Talla%20L%29"
+          "https://loremflickr.com/700/700/leash?lock=393",
+          "https://loremflickr.com/700/700/leash?lock=394"
         ]
       }
     ]
@@ -1080,15 +1070,15 @@ const PRODUCTS = [
       {
         "label": "Ratón",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Juguete%20InteractPaw",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Juguete%20InteractPaw%20-%20Detalle"
+          "https://loremflickr.com/700/700/cat?lock=401",
+          "https://loremflickr.com/700/700/cat?lock=402"
         ]
       },
       {
         "label": "Pluma",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Juguete%20InteractPaw%20%28Pluma%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Juguete%20InteractPaw%20-%20Detalle%20%28Pluma%29"
+          "https://loremflickr.com/700/700/cat?lock=403",
+          "https://loremflickr.com/700/700/cat?lock=404"
         ]
       }
     ]
@@ -1106,15 +1096,15 @@ const PRODUCTS = [
       {
         "label": "Negro",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Cargador%20USB%20CarVolt",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Cargador%20USB%20CarVolt%20-%20Detalle"
+          "https://loremflickr.com/700/700/charger?lock=411",
+          "https://loremflickr.com/700/700/charger?lock=412"
         ]
       },
       {
         "label": "Gris",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Cargador%20USB%20CarVolt%20%28Gris%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Cargador%20USB%20CarVolt%20-%20Detalle%20%28Gris%29"
+          "https://loremflickr.com/700/700/charger?lock=413",
+          "https://loremflickr.com/700/700/charger?lock=414"
         ]
       }
     ]
@@ -1132,15 +1122,15 @@ const PRODUCTS = [
       {
         "label": "Negro",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Cubre%20Asientos%20ComfortDrive",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Cubre%20Asientos%20ComfortDrive%20-%20Detalle"
+          "https://loremflickr.com/700/700/carseat?lock=421",
+          "https://loremflickr.com/700/700/carseat?lock=422"
         ]
       },
       {
         "label": "Negro/Gris",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Cubre%20Asientos%20ComfortDrive%20%28Negro/Gris%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Cubre%20Asientos%20ComfortDrive%20-%20Detalle%20%28Negro/Gris%29"
+          "https://loremflickr.com/700/700/carseat?lock=423",
+          "https://loremflickr.com/700/700/carseat?lock=424"
         ]
       }
     ]
@@ -1158,15 +1148,15 @@ const PRODUCTS = [
       {
         "label": "H4",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Set%20de%20Luces%20LED%20NightBeam",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Set%20de%20Luces%20LED%20NightBeam%20-%20Detalle"
+          "https://loremflickr.com/700/700/headlight?lock=431",
+          "https://loremflickr.com/700/700/headlight?lock=432"
         ]
       },
       {
         "label": "H7",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Set%20de%20Luces%20LED%20NightBeam%20%28H7%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Set%20de%20Luces%20LED%20NightBeam%20-%20Detalle%20%28H7%29"
+          "https://loremflickr.com/700/700/headlight?lock=433",
+          "https://loremflickr.com/700/700/headlight?lock=434"
         ]
       }
     ]
@@ -1184,15 +1174,15 @@ const PRODUCTS = [
       {
         "label": "Aroma Cítrico",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Aromatizante%20FreshRide",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Aromatizante%20FreshRide%20-%20Detalle"
+          "https://loremflickr.com/700/700/airfreshener?lock=441",
+          "https://loremflickr.com/700/700/airfreshener?lock=442"
         ]
       },
       {
         "label": "Aroma Madera",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Aromatizante%20FreshRide%20%28Aroma%20Madera%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Aromatizante%20FreshRide%20-%20Detalle%20%28Aroma%20Madera%29"
+          "https://loremflickr.com/700/700/airfreshener?lock=443",
+          "https://loremflickr.com/700/700/airfreshener?lock=444"
         ]
       }
     ]
@@ -1210,15 +1200,15 @@ const PRODUCTS = [
       {
         "label": "Kit 40 pzas",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Kit%20de%20Herramientas%20AutoFix",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Kit%20de%20Herramientas%20AutoFix%20-%20Detalle"
+          "https://loremflickr.com/700/700/tools?lock=451",
+          "https://loremflickr.com/700/700/tools?lock=452"
         ]
       },
       {
         "label": "Kit 60 pzas",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Kit%20de%20Herramientas%20AutoFix%20%28Kit%2060%20pzas%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Kit%20de%20Herramientas%20AutoFix%20-%20Detalle%20%28Kit%2060%20pzas%29"
+          "https://loremflickr.com/700/700/tools?lock=453",
+          "https://loremflickr.com/700/700/tools?lock=454"
         ]
       }
     ]
@@ -1236,15 +1226,15 @@ const PRODUCTS = [
       {
         "label": "Versión Estándar",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Taladro%20PowerDrill%20X200",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Taladro%20PowerDrill%20X200%20-%20Detalle"
+          "https://loremflickr.com/700/700/drill?lock=461",
+          "https://loremflickr.com/700/700/drill?lock=462"
         ]
       },
       {
         "label": "Versión Pro",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Taladro%20PowerDrill%20X200%20%28Versi%C3%B3n%20Pro%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Taladro%20PowerDrill%20X200%20-%20Detalle%20%28Versi%C3%B3n%20Pro%29"
+          "https://loremflickr.com/700/700/drill?lock=463",
+          "https://loremflickr.com/700/700/drill?lock=464"
         ]
       }
     ]
@@ -1262,15 +1252,15 @@ const PRODUCTS = [
       {
         "label": "32 piezas",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Set%20de%20Destornilladores%20PrecisionKit",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Set%20de%20Destornilladores%20PrecisionKit%20-%20Detalle"
+          "https://loremflickr.com/700/700/screwdriver?lock=471",
+          "https://loremflickr.com/700/700/screwdriver?lock=472"
         ]
       },
       {
         "label": "58 piezas",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Set%20de%20Destornilladores%20PrecisionKit%20%2858%20piezas%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Set%20de%20Destornilladores%20PrecisionKit%20-%20Detalle%20%2858%20piezas%29"
+          "https://loremflickr.com/700/700/screwdriver?lock=473",
+          "https://loremflickr.com/700/700/screwdriver?lock=474"
         ]
       }
     ]
@@ -1288,15 +1278,15 @@ const PRODUCTS = [
       {
         "label": "Disco 7 1/4\"",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Sierra%20Circular%20CutMaster",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Sierra%20Circular%20CutMaster%20-%20Detalle"
+          "https://loremflickr.com/700/700/saw?lock=481",
+          "https://loremflickr.com/700/700/saw?lock=482"
         ]
       },
       {
         "label": "Disco 10\"",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Sierra%20Circular%20CutMaster%20%28Disco%2010%22%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Sierra%20Circular%20CutMaster%20-%20Detalle%20%28Disco%2010%22%29"
+          "https://loremflickr.com/700/700/saw?lock=483",
+          "https://loremflickr.com/700/700/saw?lock=484"
         ]
       }
     ]
@@ -1314,15 +1304,15 @@ const PRODUCTS = [
       {
         "label": "Básico",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Mult%C3%ADmetro%20VoltCheck%20Pro",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Mult%C3%ADmetro%20VoltCheck%20Pro%20-%20Detalle"
+          "https://loremflickr.com/700/700/multimeter?lock=491",
+          "https://loremflickr.com/700/700/multimeter?lock=492"
         ]
       },
       {
         "label": "Avanzado",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Mult%C3%ADmetro%20VoltCheck%20Pro%20%28Avanzado%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Mult%C3%ADmetro%20VoltCheck%20Pro%20-%20Detalle%20%28Avanzado%29"
+          "https://loremflickr.com/700/700/multimeter?lock=493",
+          "https://loremflickr.com/700/700/multimeter?lock=494"
         ]
       }
     ]
@@ -1340,15 +1330,15 @@ const PRODUCTS = [
       {
         "label": "200 piezas",
         "images": [
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Caja%20de%20Herramientas%20ProOrganizer%20200",
-          "https://placehold.co/700x700/0B0B0B/39FF14?font=poppins&text=Caja%20de%20Herramientas%20ProOrganizer%20200%20-%20Detalle"
+          "https://loremflickr.com/700/700/toolbox?lock=501",
+          "https://loremflickr.com/700/700/toolbox?lock=502"
         ]
       },
       {
         "label": "300 piezas",
         "images": [
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Caja%20de%20Herramientas%20ProOrganizer%20200%20%28300%20piezas%29",
-          "https://placehold.co/700x700/39FF14/0B0B0B?font=poppins&text=Caja%20de%20Herramientas%20ProOrganizer%20200%20-%20Detalle%20%28300%20piezas%29"
+          "https://loremflickr.com/700/700/toolbox?lock=503",
+          "https://loremflickr.com/700/700/toolbox?lock=504"
         ]
       }
     ]
