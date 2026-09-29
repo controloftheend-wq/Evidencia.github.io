@@ -55,17 +55,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Negro Grafito",
-        "images": [
-          "https://loremflickr.com/700/700/laptop?lock=11",
-          "https://loremflickr.com/700/700/laptop?lock=12"
-        ]
+        "images": []
       },
       {
         "label": "Plata Estelar",
-        "images": [
-          "https://loremflickr.com/700/700/laptop?lock=13",
-          "https://loremflickr.com/700/700/laptop?lock=14"
-        ]
+        "images": []
       }
     ]
   },
@@ -81,17 +75,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Negro Medianoche",
-        "images": [
-          "https://loremflickr.com/700/700/smartphone?lock=21",
-          "https://loremflickr.com/700/700/smartphone?lock=22"
-        ]
+        "images": []
       },
       {
         "label": "Azul Aurora",
-        "images": [
-          "https://loremflickr.com/700/700/smartphone?lock=23",
-          "https://loremflickr.com/700/700/smartphone?lock=24"
-        ]
+        "images": []
       }
     ]
   },
@@ -107,17 +95,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Negro Ónix",
-        "images": [
-          "https://loremflickr.com/700/700/headphones?lock=31",
-          "https://loremflickr.com/700/700/headphones?lock=32"
-        ]
+        "images": []
       },
       {
         "label": "Blanco Perla",
-        "images": [
-          "https://loremflickr.com/700/700/headphones?lock=33",
-          "https://loremflickr.com/700/700/headphones?lock=34"
-        ]
+        "images": []
       }
     ]
   },
@@ -133,17 +115,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Correa Negra",
-        "images": [
-          "https://loremflickr.com/700/700/smartwatch?lock=41",
-          "https://loremflickr.com/700/700/smartwatch?lock=42"
-        ]
+        "images": []
       },
       {
         "label": "Correa Verde Lima",
-        "images": [
-          "https://loremflickr.com/700/700/smartwatch?lock=43",
-          "https://loremflickr.com/700/700/smartwatch?lock=44"
-        ]
+        "images": []
       }
     ]
   },
@@ -159,17 +135,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Gris Espacial",
-        "images": [
-          "https://loremflickr.com/700/700/tablet?lock=51",
-          "https://loremflickr.com/700/700/tablet?lock=52"
-        ]
+        "images": []
       },
       {
         "label": "Plata",
-        "images": [
-          "https://loremflickr.com/700/700/tablet?lock=53",
-          "https://loremflickr.com/700/700/tablet?lock=54"
-        ]
+        "images": []
       }
     ]
   },
@@ -185,17 +155,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Talla M",
-        "images": [
-          "https://loremflickr.com/700/700/hoodie?lock=61",
-          "https://loremflickr.com/700/700/hoodie?lock=62"
-        ]
+        "images": []
       },
       {
         "label": "Talla L",
-        "images": [
-          "https://loremflickr.com/700/700/hoodie?lock=63",
-          "https://loremflickr.com/700/700/hoodie?lock=64"
-        ]
+        "images": []
       }
     ]
   },
@@ -211,17 +175,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Negro",
-        "images": [
-          "https://loremflickr.com/700/700/tshirt?lock=71",
-          "https://loremflickr.com/700/700/tshirt?lock=72"
-        ]
+        "images": []
       },
       {
         "label": "Blanco",
-        "images": [
-          "https://loremflickr.com/700/700/tshirt?lock=73",
-          "https://loremflickr.com/700/700/tshirt?lock=74"
-        ]
+        "images": []
       }
     ]
   },
@@ -237,17 +195,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Talla M",
-        "images": [
-          "https://loremflickr.com/700/700/jacket?lock=81",
-          "https://loremflickr.com/700/700/jacket?lock=82"
-        ]
+        "images": []
       },
       {
         "label": "Talla L",
-        "images": [
-          "https://loremflickr.com/700/700/jacket?lock=83",
-          "https://loremflickr.com/700/700/jacket?lock=84"
-        ]
+        "images": []
       }
     ]
   },
@@ -263,17 +215,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Gris",
-        "images": [
-          "https://loremflickr.com/700/700/sweatpants?lock=91",
-          "https://loremflickr.com/700/700/sweatpants?lock=92"
-        ]
+        "images": []
       },
       {
         "label": "Negro",
-        "images": [
-          "https://loremflickr.com/700/700/sweatpants?lock=93",
-          "https://loremflickr.com/700/700/sweatpants?lock=94"
-        ]
+        "images": []
       }
     ]
   },
@@ -289,17 +235,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Talla S",
-        "images": [
-          "https://loremflickr.com/700/700/dress?lock=101",
-          "https://loremflickr.com/700/700/dress?lock=102"
-        ]
+        "images": []
       },
       {
         "label": "Talla M",
-        "images": [
-          "https://loremflickr.com/700/700/dress?lock=103",
-          "https://loremflickr.com/700/700/dress?lock=104"
-        ]
+        "images": []
       }
     ]
   },
@@ -315,17 +255,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Negro",
-        "images": [
-          "https://loremflickr.com/700/700/blender?lock=111",
-          "https://loremflickr.com/700/700/blender?lock=112"
-        ]
+        "images": []
       },
       {
         "label": "Rojo",
-        "images": [
-          "https://loremflickr.com/700/700/blender?lock=113",
-          "https://loremflickr.com/700/700/blender?lock=114"
-        ]
+        "images": []
       }
     ]
   },
@@ -341,17 +275,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Acero",
-        "images": [
-          "https://loremflickr.com/700/700/coffee?lock=121",
-          "https://loremflickr.com/700/700/coffee?lock=122"
-        ]
+        "images": []
       },
       {
         "label": "Negro Mate",
-        "images": [
-          "https://loremflickr.com/700/700/coffee?lock=123",
-          "https://loremflickr.com/700/700/coffee?lock=124"
-        ]
+        "images": []
       }
     ]
   },
@@ -367,17 +295,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Individual",
-        "images": [
-          "https://loremflickr.com/700/700/bedding?lock=131",
-          "https://loremflickr.com/700/700/bedding?lock=132"
-        ]
+        "images": []
       },
       {
         "label": "Queen",
-        "images": [
-          "https://loremflickr.com/700/700/bedding?lock=133",
-          "https://loremflickr.com/700/700/bedding?lock=134"
-        ]
+        "images": []
       }
     ]
   },
@@ -393,17 +315,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Blanca",
-        "images": [
-          "https://loremflickr.com/700/700/lamp?lock=141",
-          "https://loremflickr.com/700/700/lamp?lock=142"
-        ]
+        "images": []
       },
       {
         "label": "Negra",
-        "images": [
-          "https://loremflickr.com/700/700/lamp?lock=143",
-          "https://loremflickr.com/700/700/lamp?lock=144"
-        ]
+        "images": []
       }
     ]
   },
@@ -419,17 +335,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Gris",
-        "images": [
-          "https://loremflickr.com/700/700/vacuum?lock=151",
-          "https://loremflickr.com/700/700/vacuum?lock=152"
-        ]
+        "images": []
       },
       {
         "label": "Azul",
-        "images": [
-          "https://loremflickr.com/700/700/vacuum?lock=153",
-          "https://loremflickr.com/700/700/vacuum?lock=154"
-        ]
+        "images": []
       }
     ]
   },
@@ -445,17 +355,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Talla 5 Blanco",
-        "images": [
-          "https://loremflickr.com/700/700/soccer?lock=161",
-          "https://loremflickr.com/700/700/soccer?lock=162"
-        ]
+        "images": []
       },
       {
         "label": "Talla 5 Verde Neón",
-        "images": [
-          "https://loremflickr.com/700/700/soccer?lock=163",
-          "https://loremflickr.com/700/700/soccer?lock=164"
-        ]
+        "images": []
       }
     ]
   },
@@ -471,17 +375,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Negro/Verde",
-        "images": [
-          "https://loremflickr.com/700/700/bicycle?lock=171",
-          "https://loremflickr.com/700/700/bicycle?lock=172"
-        ]
+        "images": []
       },
       {
         "label": "Gris/Naranja",
-        "images": [
-          "https://loremflickr.com/700/700/bicycle?lock=173",
-          "https://loremflickr.com/700/700/bicycle?lock=174"
-        ]
+        "images": []
       }
     ]
   },
@@ -497,17 +395,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Par 3kg",
-        "images": [
-          "https://loremflickr.com/700/700/dumbbell?lock=181",
-          "https://loremflickr.com/700/700/dumbbell?lock=182"
-        ]
+        "images": []
       },
       {
         "label": "Par 5kg",
-        "images": [
-          "https://loremflickr.com/700/700/dumbbell?lock=183",
-          "https://loremflickr.com/700/700/dumbbell?lock=184"
-        ]
+        "images": []
       }
     ]
   },
@@ -523,17 +415,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Talla 26",
-        "images": [
-          "https://loremflickr.com/700/700/sneakers?lock=191",
-          "https://loremflickr.com/700/700/sneakers?lock=192"
-        ]
+        "images": []
       },
       {
         "label": "Talla 27",
-        "images": [
-          "https://loremflickr.com/700/700/sneakers?lock=193",
-          "https://loremflickr.com/700/700/sneakers?lock=194"
-        ]
+        "images": []
       }
     ]
   },
@@ -549,17 +435,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Peso Ligero",
-        "images": [
-          "https://loremflickr.com/700/700/tennis?lock=201",
-          "https://loremflickr.com/700/700/tennis?lock=202"
-        ]
+        "images": []
       },
       {
         "label": "Peso Medio",
-        "images": [
-          "https://loremflickr.com/700/700/tennis?lock=203",
-          "https://loremflickr.com/700/700/tennis?lock=204"
-        ]
+        "images": []
       }
     ]
   },
@@ -575,17 +455,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "50ml",
-        "images": [
-          "https://loremflickr.com/700/700/perfume?lock=211",
-          "https://loremflickr.com/700/700/perfume?lock=212"
-        ]
+        "images": []
       },
       {
         "label": "100ml",
-        "images": [
-          "https://loremflickr.com/700/700/perfume?lock=213",
-          "https://loremflickr.com/700/700/perfume?lock=214"
-        ]
+        "images": []
       }
     ]
   },
@@ -601,17 +475,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Tonos Cálidos",
-        "images": [
-          "https://loremflickr.com/700/700/makeup?lock=221",
-          "https://loremflickr.com/700/700/makeup?lock=222"
-        ]
+        "images": []
       },
       {
         "label": "Tonos Fríos",
-        "images": [
-          "https://loremflickr.com/700/700/makeup?lock=223",
-          "https://loremflickr.com/700/700/makeup?lock=224"
-        ]
+        "images": []
       }
     ]
   },
@@ -627,17 +495,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Negro",
-        "images": [
-          "https://loremflickr.com/700/700/hairdryer?lock=231",
-          "https://loremflickr.com/700/700/hairdryer?lock=232"
-        ]
+        "images": []
       },
       {
         "label": "Rosa",
-        "images": [
-          "https://loremflickr.com/700/700/hairdryer?lock=233",
-          "https://loremflickr.com/700/700/hairdryer?lock=234"
-        ]
+        "images": []
       }
     ]
   },
@@ -653,17 +515,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Piel Normal",
-        "images": [
-          "https://loremflickr.com/700/700/skincare?lock=241",
-          "https://loremflickr.com/700/700/skincare?lock=242"
-        ]
+        "images": []
       },
       {
         "label": "Piel Seca",
-        "images": [
-          "https://loremflickr.com/700/700/skincare?lock=243",
-          "https://loremflickr.com/700/700/skincare?lock=244"
-        ]
+        "images": []
       }
     ]
   },
@@ -679,17 +535,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Negro",
-        "images": [
-          "https://loremflickr.com/700/700/hair?lock=251",
-          "https://loremflickr.com/700/700/hair?lock=252"
-        ]
+        "images": []
       },
       {
         "label": "Dorado",
-        "images": [
-          "https://loremflickr.com/700/700/hair?lock=253",
-          "https://loremflickr.com/700/700/hair?lock=254"
-        ]
+        "images": []
       }
     ]
   },
@@ -705,17 +555,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Negro",
-        "images": [
-          "https://loremflickr.com/700/700/drone?lock=261",
-          "https://loremflickr.com/700/700/drone?lock=262"
-        ]
+        "images": []
       },
       {
         "label": "Blanco",
-        "images": [
-          "https://loremflickr.com/700/700/drone?lock=263",
-          "https://loremflickr.com/700/700/drone?lock=264"
-        ]
+        "images": []
       }
     ]
   },
@@ -731,17 +575,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Ciudad",
-        "images": [
-          "https://loremflickr.com/700/700/lego?lock=271",
-          "https://loremflickr.com/700/700/lego?lock=272"
-        ]
+        "images": []
       },
       {
         "label": "Espacial",
-        "images": [
-          "https://loremflickr.com/700/700/lego?lock=273",
-          "https://loremflickr.com/700/700/lego?lock=274"
-        ]
+        "images": []
       }
     ]
   },
@@ -757,17 +595,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Look Casual",
-        "images": [
-          "https://loremflickr.com/700/700/doll?lock=281",
-          "https://loremflickr.com/700/700/doll?lock=282"
-        ]
+        "images": []
       },
       {
         "label": "Look Fiesta",
-        "images": [
-          "https://loremflickr.com/700/700/doll?lock=283",
-          "https://loremflickr.com/700/700/doll?lock=284"
-        ]
+        "images": []
       }
     ]
   },
@@ -783,17 +615,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Rojo",
-        "images": [
-          "https://loremflickr.com/700/700/car?lock=291",
-          "https://loremflickr.com/700/700/car?lock=292"
-        ]
+        "images": []
       },
       {
         "label": "Azul",
-        "images": [
-          "https://loremflickr.com/700/700/car?lock=293",
-          "https://loremflickr.com/700/700/car?lock=294"
-        ]
+        "images": []
       }
     ]
   },
@@ -809,17 +635,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Diseño Nebulosa",
-        "images": [
-          "https://loremflickr.com/700/700/puzzle?lock=301",
-          "https://loremflickr.com/700/700/puzzle?lock=302"
-        ]
+        "images": []
       },
       {
         "label": "Diseño Vía Láctea",
-        "images": [
-          "https://loremflickr.com/700/700/puzzle?lock=303",
-          "https://loremflickr.com/700/700/puzzle?lock=304"
-        ]
+        "images": []
       }
     ]
   },
@@ -835,17 +655,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Pasta Blanda",
-        "images": [
-          "https://loremflickr.com/700/700/book?lock=311",
-          "https://loremflickr.com/700/700/book?lock=312"
-        ]
+        "images": []
       },
       {
         "label": "Pasta Dura",
-        "images": [
-          "https://loremflickr.com/700/700/book?lock=313",
-          "https://loremflickr.com/700/700/book?lock=314"
-        ]
+        "images": []
       }
     ]
   },
@@ -861,17 +675,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Pasta Blanda",
-        "images": [
-          "https://loremflickr.com/700/700/cookbook?lock=321",
-          "https://loremflickr.com/700/700/cookbook?lock=322"
-        ]
+        "images": []
       },
       {
         "label": "Edición Ilustrada",
-        "images": [
-          "https://loremflickr.com/700/700/cookbook?lock=323",
-          "https://loremflickr.com/700/700/cookbook?lock=324"
-        ]
+        "images": []
       }
     ]
   },
@@ -887,17 +695,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Pasta Blanda",
-        "images": [
-          "https://loremflickr.com/700/700/book?lock=331",
-          "https://loremflickr.com/700/700/book?lock=332"
-        ]
+        "images": []
       },
       {
         "label": "Pasta Dura",
-        "images": [
-          "https://loremflickr.com/700/700/book?lock=333",
-          "https://loremflickr.com/700/700/book?lock=334"
-        ]
+        "images": []
       }
     ]
   },
@@ -913,17 +715,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Edición Estándar",
-        "images": [
-          "https://loremflickr.com/700/700/comic?lock=341",
-          "https://loremflickr.com/700/700/comic?lock=342"
-        ]
+        "images": []
       },
       {
         "label": "Edición Coleccionista",
-        "images": [
-          "https://loremflickr.com/700/700/comic?lock=343",
-          "https://loremflickr.com/700/700/comic?lock=344"
-        ]
+        "images": []
       }
     ]
   },
@@ -939,17 +735,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Verde",
-        "images": [
-          "https://loremflickr.com/700/700/notebook?lock=351",
-          "https://loremflickr.com/700/700/notebook?lock=352"
-        ]
+        "images": []
       },
       {
         "label": "Negro",
-        "images": [
-          "https://loremflickr.com/700/700/notebook?lock=353",
-          "https://loremflickr.com/700/700/notebook?lock=354"
-        ]
+        "images": []
       }
     ]
   },
@@ -965,17 +755,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Chica",
-        "images": [
-          "https://loremflickr.com/700/700/dog?lock=361",
-          "https://loremflickr.com/700/700/dog?lock=362"
-        ]
+        "images": []
       },
       {
         "label": "Grande",
-        "images": [
-          "https://loremflickr.com/700/700/dog?lock=363",
-          "https://loremflickr.com/700/700/dog?lock=364"
-        ]
+        "images": []
       }
     ]
   },
@@ -991,17 +775,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Gris",
-        "images": [
-          "https://loremflickr.com/700/700/cat?lock=371",
-          "https://loremflickr.com/700/700/cat?lock=372"
-        ]
+        "images": []
       },
       {
         "label": "Beige",
-        "images": [
-          "https://loremflickr.com/700/700/cat?lock=373",
-          "https://loremflickr.com/700/700/cat?lock=374"
-        ]
+        "images": []
       }
     ]
   },
@@ -1017,17 +795,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Blanco",
-        "images": [
-          "https://loremflickr.com/700/700/petfood?lock=381",
-          "https://loremflickr.com/700/700/petfood?lock=382"
-        ]
+        "images": []
       },
       {
         "label": "Negro",
-        "images": [
-          "https://loremflickr.com/700/700/petfood?lock=383",
-          "https://loremflickr.com/700/700/petfood?lock=384"
-        ]
+        "images": []
       }
     ]
   },
@@ -1043,17 +815,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Talla M",
-        "images": [
-          "https://loremflickr.com/700/700/leash?lock=391",
-          "https://loremflickr.com/700/700/leash?lock=392"
-        ]
+        "images": []
       },
       {
         "label": "Talla L",
-        "images": [
-          "https://loremflickr.com/700/700/leash?lock=393",
-          "https://loremflickr.com/700/700/leash?lock=394"
-        ]
+        "images": []
       }
     ]
   },
@@ -1069,17 +835,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Ratón",
-        "images": [
-          "https://loremflickr.com/700/700/cat?lock=401",
-          "https://loremflickr.com/700/700/cat?lock=402"
-        ]
+        "images": []
       },
       {
         "label": "Pluma",
-        "images": [
-          "https://loremflickr.com/700/700/cat?lock=403",
-          "https://loremflickr.com/700/700/cat?lock=404"
-        ]
+        "images": []
       }
     ]
   },
@@ -1095,17 +855,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Negro",
-        "images": [
-          "https://loremflickr.com/700/700/charger?lock=411",
-          "https://loremflickr.com/700/700/charger?lock=412"
-        ]
+        "images": []
       },
       {
         "label": "Gris",
-        "images": [
-          "https://loremflickr.com/700/700/charger?lock=413",
-          "https://loremflickr.com/700/700/charger?lock=414"
-        ]
+        "images": []
       }
     ]
   },
@@ -1121,17 +875,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Negro",
-        "images": [
-          "https://loremflickr.com/700/700/carseat?lock=421",
-          "https://loremflickr.com/700/700/carseat?lock=422"
-        ]
+        "images": []
       },
       {
         "label": "Negro/Gris",
-        "images": [
-          "https://loremflickr.com/700/700/carseat?lock=423",
-          "https://loremflickr.com/700/700/carseat?lock=424"
-        ]
+        "images": []
       }
     ]
   },
@@ -1147,17 +895,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "H4",
-        "images": [
-          "https://loremflickr.com/700/700/headlight?lock=431",
-          "https://loremflickr.com/700/700/headlight?lock=432"
-        ]
+        "images": []
       },
       {
         "label": "H7",
-        "images": [
-          "https://loremflickr.com/700/700/headlight?lock=433",
-          "https://loremflickr.com/700/700/headlight?lock=434"
-        ]
+        "images": []
       }
     ]
   },
@@ -1173,17 +915,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Aroma Cítrico",
-        "images": [
-          "https://loremflickr.com/700/700/airfreshener?lock=441",
-          "https://loremflickr.com/700/700/airfreshener?lock=442"
-        ]
+        "images": []
       },
       {
         "label": "Aroma Madera",
-        "images": [
-          "https://loremflickr.com/700/700/airfreshener?lock=443",
-          "https://loremflickr.com/700/700/airfreshener?lock=444"
-        ]
+        "images": []
       }
     ]
   },
@@ -1199,17 +935,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Kit 40 pzas",
-        "images": [
-          "https://loremflickr.com/700/700/tools?lock=451",
-          "https://loremflickr.com/700/700/tools?lock=452"
-        ]
+        "images": []
       },
       {
         "label": "Kit 60 pzas",
-        "images": [
-          "https://loremflickr.com/700/700/tools?lock=453",
-          "https://loremflickr.com/700/700/tools?lock=454"
-        ]
+        "images": []
       }
     ]
   },
@@ -1225,17 +955,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Versión Estándar",
-        "images": [
-          "https://loremflickr.com/700/700/drill?lock=461",
-          "https://loremflickr.com/700/700/drill?lock=462"
-        ]
+        "images": []
       },
       {
         "label": "Versión Pro",
-        "images": [
-          "https://loremflickr.com/700/700/drill?lock=463",
-          "https://loremflickr.com/700/700/drill?lock=464"
-        ]
+        "images": []
       }
     ]
   },
@@ -1251,17 +975,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "32 piezas",
-        "images": [
-          "https://loremflickr.com/700/700/screwdriver?lock=471",
-          "https://loremflickr.com/700/700/screwdriver?lock=472"
-        ]
+        "images": []
       },
       {
         "label": "58 piezas",
-        "images": [
-          "https://loremflickr.com/700/700/screwdriver?lock=473",
-          "https://loremflickr.com/700/700/screwdriver?lock=474"
-        ]
+        "images": []
       }
     ]
   },
@@ -1277,17 +995,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Disco 7 1/4\"",
-        "images": [
-          "https://loremflickr.com/700/700/saw?lock=481",
-          "https://loremflickr.com/700/700/saw?lock=482"
-        ]
+        "images": []
       },
       {
         "label": "Disco 10\"",
-        "images": [
-          "https://loremflickr.com/700/700/saw?lock=483",
-          "https://loremflickr.com/700/700/saw?lock=484"
-        ]
+        "images": []
       }
     ]
   },
@@ -1303,17 +1015,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "Básico",
-        "images": [
-          "https://loremflickr.com/700/700/multimeter?lock=491",
-          "https://loremflickr.com/700/700/multimeter?lock=492"
-        ]
+        "images": []
       },
       {
         "label": "Avanzado",
-        "images": [
-          "https://loremflickr.com/700/700/multimeter?lock=493",
-          "https://loremflickr.com/700/700/multimeter?lock=494"
-        ]
+        "images": []
       }
     ]
   },
@@ -1329,17 +1035,11 @@ const PRODUCTS = [
     "variants": [
       {
         "label": "200 piezas",
-        "images": [
-          "https://loremflickr.com/700/700/toolbox?lock=501",
-          "https://loremflickr.com/700/700/toolbox?lock=502"
-        ]
+        "images": []
       },
       {
         "label": "300 piezas",
-        "images": [
-          "https://loremflickr.com/700/700/toolbox?lock=503",
-          "https://loremflickr.com/700/700/toolbox?lock=504"
-        ]
+        "images": []
       }
     ]
   }
