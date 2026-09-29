@@ -1,4 +1,4 @@
-
+// Generado automáticamente. Categorías y catálogo de productos de HugoShop.
 const CATEGORIES = [
   {
     "key": "tecnologia",

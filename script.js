@@ -11,6 +11,7 @@ const HERO_SLIDES = [
 let pdState = { productId:null, variantIndex:0, qty:1 };
 let toastTimer = null;
 
+/* ---------- utilidades ---------- */
 function findProduct(id){ return PRODUCTS.find(p => p.id === Number(id)); }
 function findCategory(key){ return CATEGORIES.find(c => c.key === key); }
 function formatPrice(n){ return n.toLocaleString('es-MX', { style:'currency', currency:'MXN', maximumFractionDigits:0 }); }
@@ -32,7 +33,7 @@ function removeFromCart(id, variantIndex){
 function cartCountTotal(){ return getCart().reduce((s,c) => s + c.qty, 0); }
 function updateCartCount(){ document.getElementById('cart-count').textContent = cartCountTotal(); }
 
-
+/* ---------- tarjeta de producto ---------- */
 function productCardHTML(p){
   const cat = findCategory(p.category);
   return `
@@ -71,6 +72,7 @@ function pickNew(){
   return badged.concat(rest).slice(0, 10);
 }
 
+/* ---------- navegación / categorías (construcción única) ---------- */
 function buildCategoryNav(){
   document.getElementById('category-bar').innerHTML =
     `<a href="#/" class="category-pill" data-key="">Inicio</a>` +
@@ -95,6 +97,7 @@ function updateActivePill(key){
   document.querySelectorAll('.category-pill').forEach(p => p.classList.toggle('active', p.dataset.key === key));
 }
 
+/* ---------- hero ---------- */
 function buildHero(){
   const hero = document.getElementById('hero');
   hero.innerHTML = `
@@ -131,6 +134,7 @@ function attachCarouselNav(){
   });
 }
 
+/* ---------- vistas ---------- */
 function hideAllViews(){ document.querySelectorAll('.view').forEach(v => v.hidden = true); }
 function showView(id){ document.getElementById(id).hidden = false; }
 
@@ -278,6 +282,7 @@ function router(){
   window.scrollTo(0, 0);
 }
 
+/* ---------- modal / toast ---------- */
 function openCheckoutModal(){ document.getElementById('checkout-modal').hidden = false; document.body.style.overflow = 'hidden'; }
 function closeCheckoutModal(){ document.getElementById('checkout-modal').hidden = true; document.body.style.overflow = ''; }
 
@@ -290,6 +295,7 @@ function showToast(msg){
   toastTimer = setTimeout(() => { t.classList.remove('show'); setTimeout(() => t.hidden = true, 250); }, 2200);
 }
 
+/* ---------- eventos estáticos (se registran una sola vez) ---------- */
 function attachStaticEvents(){
   document.getElementById('search-form').addEventListener('submit', e => {
     e.preventDefault();
@@ -341,6 +347,7 @@ function attachStaticEvents(){
   window.addEventListener('hashchange', router);
 }
 
+/* ---------- init ---------- */
 function init(){
   buildCategoryNav();
   buildHero();
